@@ -1,8 +1,8 @@
 
 /*
-* Progrm that calculates the factorial of a number. The
+* Program that calculates the factorial of a number. The
 * factorial of a nonnegative integer n is written n!
-* (pronounced ìn factorialî).
+* (pronounced ‚Äún factorial‚Äù).
 */
 
 #include <stdio.h>
