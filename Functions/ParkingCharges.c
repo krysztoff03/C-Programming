@@ -14,7 +14,6 @@ double calculateCharges(double h);
 
 int main()
 {
-    int i;
     double hours1, hours2, hours3, totalHours;
     double charges1, charges2, charges3, totalCharges;
     printf("Enter hours for car 1: ");
