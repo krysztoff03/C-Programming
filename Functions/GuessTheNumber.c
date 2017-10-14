@@ -1,6 +1,6 @@
 
 /*
-* Program that plays the game of ìguess the numberî.
+* Program that plays the game of ‚Äúguess the number‚Äù.
 */
 
 #include <stdio.h>
@@ -13,24 +13,24 @@ int main()
     int number, guess;
     srand(time(NULL));
     number = 1 + rand() % 1000;
-    printf("i have a number between 1 and 1000.\n");
-    printf("can you guess my number?\n");
-    printf("please type your first guess.\n");
+    printf("I have a number between 1 and 1000.\n");
+    printf("Can you guess my number?\n");
+    printf("Please type your first guess.\n");
     scanf("%d", &guess);
     while(number != guess)
     {
         if(number > guess)
         {
-            printf("too low. try again!\n");
+            printf("Too low. Try again!\n");
             scanf("%d", &guess);
         }
         if(number < guess)
         {
-            printf("too high.try again!\n");
+            printf("Too high. Try again!\n");
             scanf("%d", &guess);
         }
     }
-    printf("excellent.you guessed the number!\n");
+    printf("Excellent. You guessed the number!\n");
     return 0;
 }
 
