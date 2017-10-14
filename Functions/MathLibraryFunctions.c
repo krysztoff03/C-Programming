@@ -133,6 +133,7 @@ int main()
            "-1 to end\n");
     scanf("%d", &choice);
     }
+    return 0;
 }
 
 void squareRoot(double a)
