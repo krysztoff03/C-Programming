@@ -11,11 +11,11 @@ int main()
 {
     int fahrenheit;
     double celsius;
-    printf("Celsius\tFahrenheit\n");
+    printf("\tCelsius\t  Fahrenheit\n");
     for(fahrenheit = 0;fahrenheit <= 212;fahrenheit++)
     {
         celsius = 5.0 / 9.0 * (fahrenheit - 32);
-        printf("%d\t%.3f\n", fahrenheit, celsius);
+        printf("%10d\t%10.3f\n", fahrenheit, celsius);
     }
     return 0;
 }
