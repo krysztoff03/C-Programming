@@ -1,8 +1,8 @@
 
 /*
-* Program that inputs four strings that represent floating-point
-* values, converts the strings to double values, sums the values
-* and prints the total of the four values.
+* Program that uses function strcmp to compare two strings input
+* by the user. The program should state whether the first string is 
+* less than, equal to or greater than the second string.
 */
 
 #include <stdio.h>
