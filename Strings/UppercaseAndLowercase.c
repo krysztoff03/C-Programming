@@ -1,6 +1,6 @@
 
 /*
-* Write a program that inputs a line of text into char array. Output
+* Program that inputs a line of text into char array. Output
 * the line in uppercase letters and in lowercase letters.
 */
 
