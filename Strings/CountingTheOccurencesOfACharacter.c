@@ -1,6 +1,6 @@
 
 /*
-* Program that inputs several lines of text and a search character
+* Program that inputs a text and a search character
 * and uses function strchr to determine the total occurrences of the
 * character in the lines of text.
 */
