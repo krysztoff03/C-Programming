@@ -15,7 +15,7 @@ int main()
     scanf("%u", &p);
     printf("The original value %u in binary is:\n");
     displayBits(number);
-    printf("\nThe value right shifted with 4 bits in binary is:\n");
+    printf("\nThe value left shifted with p - 1 bits (2^p) in binary is:\n");
     displayBits(number << (p - 1));
 
     return 0;
