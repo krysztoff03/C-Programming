@@ -22,7 +22,7 @@ char delete(ListNodePtr *sPtr, char value);
 int isEmpty(ListNodePtr sPtr);
 void printList(ListNodePtr currentPtr);
 void instructions();
-void concat(ListNodePtr *sPtr1, ListNodePtr *sPtr2);
+void concatenate(ListNodePtr *sPtr1, ListNodePtr *sPtr2);
 
 int main()
 {
@@ -91,7 +91,7 @@ int main()
             break;
         case 5:
             printf("\nConcatenated List:\n");
-            concat(&startPtr1, &startPtr2);
+            concatenate(&startPtr1, &startPtr2);
             printList(startPtr1);
             break;
         default:
@@ -206,7 +206,7 @@ void printList(ListNodePtr currentPtr)
     }
 }
 
-void concat(ListNodePtr *sPtr1, ListNodePtr *sPtr2)
+void concatenate(ListNodePtr *sPtr1, ListNodePtr *sPtr2)
 {
     ListNodePtr tempPtr;
     if(*sPtr1 == NULL)
