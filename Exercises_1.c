@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : Tema1.c
+ Name        : Exercises_1.c
  Author      : Cristian Iosif
  Version     : v1.0
  Copyright   :
